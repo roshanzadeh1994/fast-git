@@ -332,7 +332,7 @@ public class Converter
 				switch (updateID)
 				{
 				case UPDATE_CONVERT_COMPLETE:
-					// catch divide by zero errors.
+					// catch divide by zero or 0 errors.
 					if (param2==0)
 						param2 = 1;
 
